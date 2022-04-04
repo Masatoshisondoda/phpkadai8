@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="css/signup.css" />
+</head>
+<body>
+    
+
+<div class="form-style-5">
+    <form id="test" method=post action="kekka.php">
+        <div class="head">
+            <h2>スタディセルフ登録画面</h2>
+        </div>
+        <fieldset>
+            <legend><span class="number">1</span> 個人情報</legend>
+            名前:
+            <input type="text" name="field1" placeholder="Your Name *" required>
+            メールアドレス:
+            <input type="email" name="field2" placeholder="Your Email *" required> 
+            パスワード:
+            <input type="password" name="field3" placeholder="8文字以上 *"
+            minlength="8" required>
+            <label for="status">属性:</label>
+            <select id="status" name="field4">
+                    <option value="before_primary_school">小学生以下</option>
+                    <option value="primary_school">小学生</option>
+                    <option value="junior_high_school">中学生</option>
+                    <option value="high_school">高校生</option>
+                    <option value="university">大学生</option>
+                    <option value="technical_school">専門学校生</option>
+                    <option value="society">社会人</option>
+                    <option value="other">その他</option>
+            </select>
+            <a href="login.html">登録済みの方はこちら</a>
+        </fieldset>
+        <div class="border"></div>
+        <fieldset>
+            <legend><span class="number">2</span> やる気チェッククイズ</legend>
+            勉強や仕事で重要なのは？
+            
+            <ul>
+            
+            <li>
+                <input type="radio" id="s-option" value=1 name="quiz1">
+                <label for="s-option">達成感</label>
+                
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+                
+            </li>
+            <li>
+                <input type="radio" id="t-option" value=2 name="quiz1">
+                <label for="t-option">責任感</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            
+            </ul>
+            
+            物事に取り組む際はどちらを重視？
+            
+            <ul>
+            
+                <li>
+                    <input type="radio" id="u-option" value=1 name="quiz2">
+                    <label for="u-option">完璧さ</label>
+            
+                    <div class="check">
+                        <div class="inside"></div>
+                    </div>
+            
+                </li>
+                <li>
+                    <input type="radio" id="o-option" value=2 name="quiz2">
+                    <label for="o-option">スピード</label>
+                    <div class="check">
+                        <div class="inside"></div>
+                    </div>
+                </li>
+            
+            </ul>
+            
+        
+            あなたはどちらのタイプ？
+        
+        <ul>
+        
+            <li>
+                <input type="radio" id="p-option" value=1 name="quiz3">
+                <label for="p-option">行動してから考える</label>
+        
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+        
+            </li>
+            <li>
+                <input type="radio" id="q-option" value=2 name="quiz3">
+                <label for="q-option">事前に計画を立てて行動する</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        
+        </ul>
+        </fieldset>
+<div class="border"></div>
+        
+        <input type="submit" value="登録完了" />
+    </form>
+</div>
+</body>
+</html>

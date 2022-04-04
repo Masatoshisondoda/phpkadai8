@@ -1,0 +1,343 @@
+<style type="text/css">
+    @media screen and (min-width: 681px){ 
+    .firsttext{
+        height: 137px;
+    width: 100%;
+    }
+    .wrapper {
+        height: 420px;
+        width: 691px;
+        margin: 50px auto;
+        border-radius: 7px 7px 7px 7px;
+        /* VIA CSS MATIC https://goo.gl/cIbnS */
+        -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .product-img {
+        float: left;
+        height: 420px;
+        width: 327px;
+    }
+
+    .product-img img {
+         /* border-radius: 7px 0 0 7px; */
+        width: 100%;
+        height: 100%;
+    }
+
+    .product-info {
+        float: left;
+        height: 420px;
+        width: 4px;
+        border-radius: 0 7px 10px 7px;
+        background-color: #ffffff;
+    }
+
+    .product-text {
+        height: 300px;
+        width: 327px;
+    }
+
+    .product-text h1 {
+        margin: 0 5px 21px 10px;
+        padding-top: 6px;
+        font-size: 34px;
+        color: #474747;
+    }
+
+    .product-text h1,
+    .product-price-btn p {
+        font-family: 'Bentham', serif;
+    }
+
+    .product-text h2 {
+        margin: 0 0 47px 38px;
+        font-size: 13px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #d2d2d2;
+        letter-spacing: 0.2em;
+    }
+
+    .product-text p {
+        height: 125px;
+        margin: 0 0 0 38px;
+        font-family: 'Playfair Display', serif;
+        color: #8d8d8d;
+        line-height: 1.7em;
+        font-size: 15px;
+        font-weight: lighter;
+        overflow: hidden;
+    }
+
+    .product-price-btn {
+        height: 103px;
+        width: 327px;
+        margin-top: 17px;
+        position: relative;
+    }
+
+    .product-price-btn p {
+        display: inline-block;
+        position: absolute;
+        top: -13px;
+        height: 50px;
+        font-family: 'Trocchi', serif;
+        margin: 0 0 0 38px;
+        font-size: 28px;
+        font-weight: lighter;
+        color: #474747;
+    }
+
+    /* 
+    span {
+        display: inline-block;
+        height: 50px;
+        font-family: 'Suranna', serif;
+        font-size: 34px;
+    } */
+
+    .product-price-btn button {
+        float: right;
+        display: inline-block;
+        height: 50px;
+        width: 176px;
+        margin: 0 40px 0 16px;
+        box-sizing: border-box;
+        border: transparent;
+        border-radius: 60px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: #ffffff;
+        background-color: #9cebd5;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .product-price-btn button:hover {
+        background-color: #79b0a1;
+    }
+
+    .h1class {
+        position: relative;
+        padding: 0.5em;
+        background: #a6d3c8;
+        color: white;
+    }
+
+    .h1class::before {
+        position: absolute;
+        content: '';
+        top: 100%;
+        left: 0;
+        border: none;
+        border-bottom: solid 15px transparent;
+        border-right: solid 20px rgb(149, 158, 155);
+    }
+
+    .center {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .firsttext{
+        height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    }
+    .phonewrapper{
+        height: 100%;
+        width: 100%;
+            margin: 50px auto;
+    }
+.wrapper {
+        height: 789px;
+        width: auto;
+        margin: 50px auto;
+        border-radius: 7px 7px 7px 7px;
+        /* VIA CSS MATIC https://goo.gl/cIbnS */
+        -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .product-img {
+        float: left;
+            height: 340px;
+    width: 384px;
+    }
+
+    .product-img img {
+        /* border-radius: 7px 0 0 7px; */
+        width: 100%;
+        height: 100%;
+    }
+    .product-info {
+        float: left;
+        height: 385px;
+        width: auto;
+        border-radius: 0 7px 10px 7px;
+        background-color: #ffffff;
+    }
+
+    .product-text {
+        height: auto;
+        width: auto;
+    }
+
+    .product-text h1 {
+        margin: 0 5px 21px 10px;
+        padding-top: 6px;
+        font-size: 34px;
+        color: #474747;
+        text-align: center;
+    }
+
+    .product-text h1,
+    .product-price-btn p {
+        font-family: 'Bentham', serif;
+    }
+
+    .product-text h2 {
+        margin: 0 0 47px 38px;
+        font-size: 13px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #d2d2d2;
+        letter-spacing: 0.2em;
+    }
+
+    .product-text p {
+        height: 125px;
+        margin: 0 0 0 38px;
+        font-family: 'Playfair Display', serif;
+        color: #8d8d8d;
+        line-height: 1.7em;
+        font-size: 15px;
+        font-weight: lighter;
+        overflow: hidden;
+    }
+
+    .product-price-btn {
+        height: 103px;
+        width: 327px;
+        margin-top: 17px;
+        position: relative;
+    }
+
+    .product-price-btn p {
+        display: inline-block;
+        position: absolute;
+        top: -13px;
+        height: 50px;
+        font-family: 'Trocchi', serif;
+        margin: 0 0 0 38px;
+        font-size: 28px;
+        font-weight: lighter;
+        color: #474747;
+    }
+
+    /* 
+    span {
+        display: inline-block;
+        height: 50px;
+        font-family: 'Suranna', serif;
+        font-size: 34px;
+    } */
+
+    .product-price-btn button {
+        float: right;
+        display: inline-block;
+        height: 50px;
+        width: 176px;
+        margin: 0 40px 0 16px;
+        box-sizing: border-box;
+        border: transparent;
+        border-radius: 60px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: #ffffff;
+        background-color: #9cebd5;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .product-price-btn button:hover {
+        background-color: #79b0a1;
+    }
+
+    .h1class {
+        position: relative;
+        padding: 0.5em;
+        background: #a6d3c8;
+        color: white;
+    }
+
+    .h1class::before {
+        position: absolute;
+        content: '';
+        top: 100%;
+        left: 0;
+        border: none;
+        border-bottom: solid 15px transparent;
+        border-right: solid 20px rgb(149, 158, 155);
+    }
+
+    .center {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+</style>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<div class="allbody">
+    <div class="firsttext">新入生の皆様、合格おめでとうございます。
+    これから大学四年間が始まります。
+    そこで、北方学生委員会「ココレ」が、「大学入学前にしておいたほうが良いこと」ということで、経験談を交えた動画を撮影しました。
+    <span style="color:#e74c3c;">ぜひご覧ください！！</span>
+    </div>
+    &nbsp;
+    &nbsp;
+    <div ><iframe class="center"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/KI2b5zHBbZI"
+            title="YouTube video player" width="560"></iframe></div>
+</div>
+<link href="https://fonts.googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi"
+    rel="stylesheet" />
+<div class="phonewrapper">
+<div class="wrapper">
+    <div class="product-img"><img 
+            src="https://www.coopofkitakyushu-univcocole.com/wp-content/uploads/2021/05/806AF5DC-5652-4314-AB5D-84BAADCA3EF7.jpeg"
+             /></div>
+
+    <div class="product-info">
+        <div class="product-text">
+            <h1 class="h1class">北方学生員会<br />
+                ココレとは</h1>
+
+            <p>北九大生協の学生主体の組織です。 組合員のために活動していきます。 ココレは、イタリア語で「寄り添う」という意味です。 組合員の生活に寄り添った活動を行っていきます。</p>
+        </div>
+        <a href="https://www.coopofkitakyushu-univcocole.com/">
+        <div class="product-price-btn"><button type="button">ココレホームページ</button></div></a>
+    </div>
+</div>
+</div>
+<script>
+
+</script>

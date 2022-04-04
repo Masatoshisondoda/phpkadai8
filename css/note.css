@@ -1,0 +1,135 @@
+/* .noteadd{
+    position: absolute;
+    left: 812px;
+    top:9px;
+    height: 28px;
+    width: 2px;
+    background:rgb(173, 248, 213);
+    padding:.4rem;
+    width:38px;
+    margin:auto;
+    border-radius: 8px;
+    color:black;
+    cursor: pointer;
+}
+.noteadd:hover{
+    background:rgb(17, 170, 17);
+}
+
+.btn{
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    background:rgb(119, 206, 119);
+    padding:.4rem;
+    width:20%;
+    margin:auto;
+    border-radius: 8px;
+    color:white;
+    cursor: pointer;
+}
+.btn:hover{
+    background:rgb(17, 170, 17);
+} */
+
+
+/* 
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower); */
+/* body {
+  height: 100%;
+  width: auto;
+  background: rgb(255, 255, 255);
+}
+
+.note{
+
+} */
+/*.paperで紙の大きさ調整*/
+/* .paper {
+  position: absolute;
+  height: 90%;
+  width: 80%;
+  background: rgba(255, 248, 228, 0.9);
+  margin: -275px -225px;
+  left: 28%;
+  top: 36%;
+  box-shadow: 0px 0px 5px 0px #888; */
+    /* 10px四方の方眼紙 */
+  /* background: linear-gradient(0deg, transparent 9px, #33333324 10px), linear-gradient(90deg,  transparent 9px, #33333324 10px);
+  background-size: 10px 10px
+}
+.paper::before {
+  content: '';
+  position: absolute;
+  left: 45px;
+  height: 100%;
+  width: 2px;
+  background: rgba(255,0,0,0.4);
+ 
+}
+.lines {
+  top:20px;
+  height: 100%;
+  width: 100%;
+  background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px); */
+    /* 10px四方の方眼紙 */
+  /* background: linear-gradient(0deg, transparent 9px, #33333324 10px), linear-gradient(90deg,  transparent 9px, #33333324 10px);
+  background-size: 10px 10px
+} */
+/*.textで入力範囲変更*/
+/* .text {
+  position: absolute;
+  top: 65px;
+  left: 55px;
+  bottom: 50px;
+  right: 10px;
+  line-height: 25px;
+  font-family: 'Indie Flower';
+  overflow: hidden;
+  outline: none;
+}
+.holes {
+  position: absolute;
+  left: 10px;
+  height: 25px;
+  width: 25px;
+  background: lightgoldenrodyellow;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 2px 0px #888;
+}
+.hole-top {
+  top: 10%;
+}
+.hole-middle {
+  top: 50%;
+}
+.hole-bottom {
+  bottom: 10%;
+}
+.cdx-block {
+    padding: -4.6em 0;
+}
+
+#editor{
+  position: absolute;
+    height: 100%;
+    width: 150%;
+    overflow: scroll;
+    padding-bottom: 10px;
+}
+
+.editArea{
+    margin-left: -23%;
+  
+} */
+/* .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+    top: 0;
+} */
+.ce-header{
+  margin: initial;
+  font-size: initial;
+  font-weight: initial;
+}
